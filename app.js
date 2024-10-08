@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('express')
 import {getProducts, getProduct, createProduct} from './index.js'
 
 const app = express()
